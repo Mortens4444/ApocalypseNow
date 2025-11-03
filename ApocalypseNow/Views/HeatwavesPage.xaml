@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:v="clr-namespace:ApocalypseNow.Views"
+             x:Class="ApocalypseNow.Views.HeatwavesPage"
+             x:ClassModifier="internal"
+             Title="Heatwaves, drought">
+    <ScrollView>
+        <VerticalStackLayout>
+            <v:GeneralView />
+
+            <Border Padding="12">
+                <VerticalStackLayout>
+                    <Label Text="Heatwave — stay hydrated (drink water, not sugary drinks). Stay in cool, shaded places." Style="{StaticResource ListItem}" />
+                    <Label Text="Avoid strenuous activity during peak heat (10:00–16:00)." Style="{StaticResource ListItem}" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Border Padding="12">
+                <VerticalStackLayout>
+                    <Label Text="Electrolytes — use salt and water for electrolyte replacement." Style="{StaticResource ListItem}" />
+                    <Label Text="Passive cooling — close curtains/blinds during the day to block sun." Style="{StaticResource ListItem}" />
+                    <Label Text="Cooling — use a wet towel for cooling exposed skin." Style="{StaticResource ListItem}" />
+                    <Label Text="Caution — avoid drinking too much plain water without salt (risk of hyponatremia!)." Style="{StaticResource ListItem}" />
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

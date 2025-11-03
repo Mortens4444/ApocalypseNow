@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ApocalypseNow.Views.GeneralView"
+             x:ClassModifier="internal">
+
+    <VerticalStackLayout Padding="16" Spacing="12">
+
+        <!-- Tactical principles -->
+        <Border Padding="12">
+            <VerticalStackLayout>
+                <Label Text="Tactical principles" Style="{StaticResource SectionHeader}" />
+                <Label Text="Stay calm!" Style="{StaticResource ListItem}" />
+                <Label Text="Turn on energy saving mode on your devices" Style="{StaticResource ListItem}" />
+                <Label Text="Gather information, assess the situation" Style="{StaticResource ListItem}" />
+                <Label Text="Secure the family" Style="{StaticResource ListItem}" />
+                <Label Text="Shelter-in-place vs evacuate?" Style="{StaticResource ListItem}" />
+                <Label Text="Cooperate with neighbors" Style="{StaticResource ListItem}" />
+                <Label Text="Save water and energy" Style="{StaticResource ListItem}" />
+                <Label Text="Know who is competent at what" Style="{StaticResource ListItem}" />
+            </VerticalStackLayout>
+        </Border>
+
+        <!-- Communication -->
+        <Border Padding="12">
+            <VerticalStackLayout>
+                <Label Text="Communication plan" Style="{StaticResource SectionHeader}" />
+                <Label Text="A designated contact that everyone calls" Style="{StaticResource NormalText}" />
+
+                <Label Text="Emergency shutdown routines" Style="{StaticResource SectionHeader}" />
+                <Label Text="Everyone should know how to shut off the main water valve, the gas valve, and the main electrical breaker." Style="{StaticResource NormalText}" />
+
+                <Label Text="Light leaks / Security" Style="{StaticResource SectionHeader}" />
+                <Label Text="Foil or darkening (cover windows). Check door locks." Style="{StaticResource NormalText}" />
+            </VerticalStackLayout>
+        </Border>
+
+        <!-- Emergency Bag -->
+        <Border Padding="12">
+            <VerticalStackLayout>
+                <Label Text="Emergency Bag (Bug-Out Bag - BOB)" Style="{StaticResource SectionHeader}" />
+                <Label Text="Prepare an easily reachable and portable bag/backpack for every family member that contains supplies for at least 72 hours." Style="{StaticResource NormalText}" />
+
+                <Label Text="Equipment (suggested)" Style="{StaticResource SectionHeader}" />
+
+                <Grid ColumnDefinitions="*,*" RowSpacing="2">
+                    <!-- Left column -->
+                    <VerticalStackLayout Grid.Column="0">
+                        <Label Text="Water — 4 L/person/day (3–7 days)" Style="{StaticResource ListItem}" />
+                        <Label Text="Bottled water or purification tablets, filter" Style="{StaticResource ListItem}" />
+                        <Label Text="Food — 3 days' worth, non-perishables, can opener" Style="{StaticResource ListItem}" />
+                        <Label Text="First aid kit — meds for 7 days, OTC, painkiller" Style="{StaticResource ListItem}" />
+                        <Label Text="Hand-crank or battery radio, charged power bank" Style="{StaticResource ListItem}" />
+                    </VerticalStackLayout>
+
+                    <!-- Right column -->
+                    <VerticalStackLayout Grid.Column="1">
+                        <Label Text="Map, compass" Style="{StaticResource ListItem}" />
+                        <Label Text="Hygiene — soap, wet wipes, sanitizer, garbage bags" Style="{StaticResource ListItem}" />
+                        <Label Text="Multi-tool, pocketknife, headlamp, spare batteries" Style="{StaticResource ListItem}" />
+                        <Label Text="Cash (small bills), copies of documents (waterproof)" Style="{StaticResource ListItem}" />
+                        <Label Text="Sleeping bag / blanket, tent" Style="{StaticResource ListItem}" />
+                    </VerticalStackLayout>
+                </Grid>
+
+                <Label Text="Clothing: layered change of clothes, raincoat, gloves, spare socks, sturdy footwear" Style="{StaticResource NormalText}" />
+            </VerticalStackLayout>
+        </Border>
+
+        <!-- Safety & Home prep -->
+        <Border Padding="12">
+            <VerticalStackLayout>
+                <Label Text="Two escape routes" Style="{StaticResource ListItem}" />
+            </VerticalStackLayout>
+        </Border>
+    </VerticalStackLayout>
+</ContentView>

@@ -1,0 +1,1 @@
+Add ToolsPage (Flashlight, compass, mirror, navigate to energy save options)

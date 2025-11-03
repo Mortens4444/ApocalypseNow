@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:v="clr-namespace:ApocalypseNow.Views"
+             x:Class="ApocalypseNow.Views.HurricanePage"
+             x:ClassModifier="internal"
+             Title="Hurricane, typhoon">
+    <ScrollView>
+        <VerticalStackLayout>
+            <v:GeneralView />
+
+            <Border Padding="12">
+                <VerticalStackLayout>
+                    <Label Text="Turn on the radio/TV. Recognize evacuation orders and routes." Style="{StaticResource ListItem}" />
+                    <Label Text="Seal drains/openings, place sandbags at doors (for inland flooding)." Style="{StaticResource ListItem}" />
+                    <Label Text="Evacuation — NEVER drive through flooded roads ('Turn Around, Don\'t Drown')." Style="{StaticResource ListItem}" />
+                    <Label Text="When leaving home — switch off the mains electricity breaker, shut off the gas." Style="{StaticResource ListItem}" />
+                    <Label Text="Move valuables to upper floors." Style="{StaticResource ListItem}" />
+                    <Label Text="Aftermath — do not re-enter the building until authorities say it\'s safe. Check for hidden structural damage." Style="{StaticResource ListItem}" />
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

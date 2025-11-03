@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:v="clr-namespace:ApocalypseNow.Views"
+             x:Class="ApocalypseNow.Views.EconomicCrisisPage"
+             x:ClassModifier="internal"
+             Title="Economic crisis">
+    <ScrollView>
+        <VerticalStackLayout>
+            <v:GeneralView />
+
+            <Border Padding="12">
+                <VerticalStackLayout>
+                    <Label Text="Financial preparedness — minimize debts, build a 3–6 month emergency fund. Diversify savings." Style="{StaticResource ListItem}" />
+                    <Label Text="Self-sufficiency — learn basic gardening and home repair skills." Style="{StaticResource ListItem}" />
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

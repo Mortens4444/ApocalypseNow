@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:v="clr-namespace:ApocalypseNow.Views"
+             x:Class="ApocalypseNow.Views.WarPage"
+             x:ClassModifier="internal"
+             Title="War">
+    <ScrollView>
+        <VerticalStackLayout>
+            <v:GeneralView />
+
+            <Border Padding="12">
+                <VerticalStackLayout>
+                    <Label Text="Immediate protection — if fire occurs, evacuate immediately. For explosion risk, find strong cover." Style="{StaticResource ListItem}" />
+                    <Label Text="In war — know designated shelters. Store at least two weeks’ worth of food and water." Style="{StaticResource ListItem}" />
+                    <Label Text="Vigilance — follow official announcements. Prepare for self-sufficiency and long-term uncertainty." Style="{StaticResource ListItem}" />
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:v="clr-namespace:ApocalypseNow.Views"
+             x:Class="ApocalypseNow.Views.EarthquakePage"
+             x:ClassModifier="internal"
+             Title="Earthquake">
+    <ScrollView>
+        <VerticalStackLayout>
+            <v:GeneralView />
+
+            <Border Padding="12">
+                <VerticalStackLayout>
+                    <Label Text="During shaking — Drop, Cover, Hold On. Get under a sturdy table or near an interior wall." Style="{StaticResource ListItem}" />
+                    <Label Text="Secure furniture — anchor tall furniture and bookshelves to the wall." Style="{StaticResource ListItem}" />
+                    <Label Text="Hazardous items — keep heavy or breakable items on low shelves." Style="{StaticResource ListItem}" />
+                    <Label Text="Stay away from windows, glass, fireplaces and chimneys." Style="{StaticResource ListItem}" />
+                    <Label Text="Aftershocks — be prepared. Check gas, water and electrical lines." Style="{StaticResource ListItem}" />
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

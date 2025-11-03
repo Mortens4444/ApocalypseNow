@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:v="clr-namespace:ApocalypseNow.Views"
+             x:Class="ApocalypseNow.Views.PandemicPage"
+             x:ClassModifier="internal"
+             Title="Epidemic, pandemic">
+    <ScrollView>
+        <VerticalStackLayout>
+            <v:GeneralView />
+
+            <Border Padding="12">
+                <VerticalStackLayout>
+                    <Label Text="Supplies — keep masks, hand sanitizer, cleaning supplies, and medicines (fever reducers, vitamins) at home." Style="{StaticResource ListItem}" />
+                    <Label Text="Hygiene — strict handwashing and physical distancing (social distancing)." Style="{StaticResource ListItem}" />
+                    <Label Text="Quarantine — be ready for isolation, including tools for remote work and remote schooling." Style="{StaticResource ListItem}" />
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

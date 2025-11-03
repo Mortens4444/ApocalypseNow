@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:ApocalypseNow.ViewModels"
+             x:Class="ApocalypseNow.Views.ApocalypseChecklistPage"
+             x:Name="ThisPage"
+             Title="Apocalypse Checklist"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!-- Colors (override if you have app theme resources) -->
+            <Color x:Key="CardBackground">#1F1F1F</Color>
+            <Color x:Key="ChipBackground">#2A2A2A</Color>
+            <Color x:Key="Accent">#9b59ff</Color>
+
+            <!-- Styles -->
+            <Style x:Key="CardStyle" TargetType="Frame">
+                <Setter Property="CornerRadius" Value="8" />
+                <Setter Property="Padding" Value="10" />
+                <Setter Property="HasShadow" Value="False" />
+                <Setter Property="BackgroundColor" Value="{StaticResource CardBackground}" />
+                <Setter Property="Margin" Value="0,6" />
+            </Style>
+
+            <Style x:Key="ChipStyle" TargetType="Frame">
+                <Setter Property="Padding" Value="6,4" />
+                <Setter Property="CornerRadius" Value="14" />
+                <Setter Property="HasShadow" Value="False" />
+                <Setter Property="BackgroundColor" Value="{StaticResource ChipBackground}" />
+                <Setter Property="Margin" Value="0,0,6,0" />
+            </Style>
+
+            <Style x:Key="SmallEntry" TargetType="Entry">
+                <Setter Property="HeightRequest" Value="36" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="TextColor" Value="White" />
+            </Style>
+
+            <Style x:Key="ActionButton" TargetType="Button">
+                <Setter Property="CornerRadius" Value="8" />
+                <Setter Property="Padding" Value="8,6" />
+                <Setter Property="BackgroundColor" Value="{StaticResource Accent}" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Order="Primary" Priority="0" Clicked="OnAddToolbarClicked" />
+        <ToolbarItem Text="Save" Order="Primary" Priority="1" Command="{Binding SaveCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.BindingContext>
+        <vm:ChecklistViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <Grid RowDefinitions="Auto,*" Padding="12" >
+            <!-- Top quick actions / search -->
+            <HorizontalStackLayout Spacing="8" VerticalOptions="Start" Grid.Row="0">
+                <SearchBar Grid.Row="0" x:Name="Search" Placeholder="Search items..."
+                           SearchCommand="{Binding SearchCommand}" SearchCommandParameter="{Binding Text, Source={x:Reference Search}}"
+                           HorizontalOptions="FillAndExpand" />
+                <Button Text="Clear checked" Style="{StaticResource ActionButton}" Command="{Binding ClearCheckedCommand}" />
+            </HorizontalStackLayout>
+
+            <!-- List -->
+            <CollectionView Grid.Row="1"
+                            ItemsSource="{Binding Items}"
+                            SelectionMode="None"
+                            Margin="0,10,0,0">
+                            <!--ItemSizingStrategy="MeasureAll"-->
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView>
+                            <!-- swipe to delete -->
+                            <SwipeView.RightItems>
+                                <SwipeItems Mode="Execute">
+                                    <SwipeItem BackgroundColor="#cc3b3b"
+                                               Text="Delete"
+                                               Command="{Binding BindingContext.DeleteItemCommand, Source={x:Reference ThisPage}}"
+                                               CommandParameter="{Binding Id}" />
+                                </SwipeItems>
+                            </SwipeView.RightItems>
+
+                            <Frame Style="{StaticResource CardStyle}">
+                                <Grid ColumnDefinitions="Auto,*,Auto" RowDefinitions="Auto,Auto">
+                                    <!-- checkbox + main title -->
+                                    <CheckBox Grid.Row="0" Grid.Column="0"
+                                              IsChecked="{Binding IsChecked}" VerticalOptions="Center" />
+
+                                    <Label Grid.Row="0" Grid.Column="1"
+                                           Text="{Binding Title}"
+                                           FontAttributes="Bold"
+                                           FontSize="16"
+                                           VerticalOptions="Center"
+                                           LineBreakMode="TailTruncation" />
+
+                                    <!-- edit button (small) -->
+                                    <Button Grid.Row="0" Grid.Column="2"
+                                            Text="✎"
+                                            WidthRequest="40" HeightRequest="36"
+                                            Command="{Binding BindingContext.EditItemCommand, Source={x:Reference ThisPage}}"
+                                            CommandParameter="{Binding Id}" />
+
+                                    <!-- chips row -->
+                                    <HorizontalStackLayout Grid.Row="1" Grid.Column="1" Spacing="6" VerticalOptions="Center">
+                                        <Frame Style="{StaticResource ChipStyle}">
+                                            <HorizontalStackLayout Spacing="6" VerticalOptions="Center">
+                                                <Label Text="📍" VerticalOptions="Center" />
+                                                <Label Text="{Binding Location}" VerticalOptions="Center" FontSize="12" />
+                                            </HorizontalStackLayout>
+                                        </Frame>
+
+                                        <Frame Style="{StaticResource ChipStyle}">
+                                            <HorizontalStackLayout Spacing="6" VerticalOptions="Center">
+                                                <Label Text="Qty" VerticalOptions="Center" FontSize="12" />
+                                                <Entry Text="{Binding Quantity}" WidthRequest="90" Keyboard="Numeric" Style="{StaticResource SmallEntry}" />
+                                            </HorizontalStackLayout>
+                                        </Frame>
+
+                                        <!-- optional: priority display if available -->
+                                        <Frame Style="{StaticResource ChipStyle}" IsVisible="{Binding Priority, Converter={StaticResource NullToBoolConverter}}">
+                                            <Label Text="{Binding Priority}" VerticalOptions="Center" FontSize="12" />
+                                        </Frame>
+                                    </HorizontalStackLayout>
+                                </Grid>
+                            </Frame>
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- footer: new item + last saved -->
+            <Border Grid.Row="2" Padding="8" VerticalOptions="End" BackgroundColor="Transparent">
+                <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto" RowSpacing="8">
+                    <Entry x:Name="NewItemEntry" Placeholder="New item title" Grid.Column="0" Grid.Row="0" />
+                    <Button Text="Add" Grid.Column="1" Grid.Row="0" Style="{StaticResource ActionButton}"
+                            Command="{Binding AddItemCommand}" CommandParameter="{Binding Text, Source={x:Reference NewItemEntry}}" />
+                </Grid>
+            </Border>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

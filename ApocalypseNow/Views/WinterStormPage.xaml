@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:v="clr-namespace:ApocalypseNow.Views"
+             x:Class="ApocalypseNow.Views.WinterStormPage"
+             x:ClassModifier="internal"
+             Title="Winter storm, freezing rain">
+    <ScrollView>
+        <VerticalStackLayout>
+            <v:GeneralView />
+
+            <Border Padding="12">
+                <VerticalStackLayout>
+                    <Label Text="Prepare the home — insulate pipes, ensure alternative heating (stove, solid fuel heater)." Style="{StaticResource ListItem}" />
+                    <Label Text="Vehicle — keep a full tank, carry blankets, a first aid kit and snow chains in the car." Style="{StaticResource ListItem}" />
+                    <Label Text="Travel — avoid driving in freezing rain or severe storms." Style="{StaticResource ListItem}" />
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

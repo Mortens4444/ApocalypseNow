@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:v="clr-namespace:ApocalypseNow.Views"
+             x:Class="ApocalypseNow.Views.NuclearPage"
+             x:ClassModifier="internal"
+             Title="Nuclear accident or weapon">
+    <ScrollView>
+        <VerticalStackLayout>
+            <v:GeneralView />
+
+            <Border Padding="12">
+                <VerticalStackLayout>
+                    <Label Text="Alert — seek the deepest shelter possible with as many walls and concrete between you and the outside as possible (e.g., basement)." Style="{StaticResource ListItem}" />
+                    <Label Text="Seal up — turn off ventilation, heating/AC. Seal windows and doors’ gaps with damp cloths." Style="{StaticResource ListItem}" />
+                    <Label Text="Radiation protection — iodine tablets (only on official instruction!)." Style="{StaticResource ListItem}" />
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

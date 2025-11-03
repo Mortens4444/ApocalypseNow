@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:v="clr-namespace:ApocalypseNow.Views"
+             x:Class="ApocalypseNow.Views.TsunamiPage"
+             x:ClassModifier="internal"
+             Title="Tsunami">
+    <ScrollView>
+        <VerticalStackLayout>
+            <v:GeneralView />
+
+            <VerticalStackLayout Padding="16" Spacing="12">
+                <Border Padding="12">
+                    <VerticalStackLayout>
+                        <Label Text="Tsunami warning — if you feel an earthquake at the coast, immediately move to higher ground! Follow official alerts." Style="{StaticResource ListItem}" />
+                        <Label Text="Height Safety — move to terrain above 30 meters (100 feet) above sea level immediately upon warning or strong earthquake." Style="{StaticResource ListItem}" />
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

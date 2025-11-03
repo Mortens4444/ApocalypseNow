@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApocalypseNow", "ApocalypseNow\ApocalypseNow.csproj", "{9573B52A-D936-4450-88AE-FCD23223FD47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Deploy\1_IncrementBuildNumber.ps1 = Deploy\1_IncrementBuildNumber.ps1
+		Deploy\2_PushAllChangeToGitHub.ps1 = Deploy\2_PushAllChangeToGitHub.ps1
+		Deploy\3_BuildTestAndSpellCheckWithSonarQube.ps1 = Deploy\3_BuildTestAndSpellCheckWithSonarQube.ps1
+		Deploy\4_UploadToFtpServer.ps1 = Deploy\4_UploadToFtpServer.ps1
+		Deploy\BuildAndGenerateApk.ps1 = Deploy\BuildAndGenerateApk.ps1
+		Deploy\GenerateTestReport.ps1 = Deploy\GenerateTestReport.ps1
+		Deploy\Utils.ps1 = Deploy\Utils.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9573B52A-D936-4450-88AE-FCD23223FD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9573B52A-D936-4450-88AE-FCD23223FD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9573B52A-D936-4450-88AE-FCD23223FD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9573B52A-D936-4450-88AE-FCD23223FD47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E54270E7-D59C-4479-981E-08220B753189}
+	EndGlobalSection
+EndGlobal

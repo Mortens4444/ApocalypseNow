@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:v="clr-namespace:ApocalypseNow.Views"
+             x:Class="ApocalypseNow.Views.ShortagePage"
+             x:ClassModifier="internal"
+             Title="Food / drinking water shortage">
+    <ScrollView>
+        <VerticalStackLayout>
+            <v:GeneralView />
+
+            <VerticalStackLayout Padding="16" Spacing="12">
+                <Border Padding="12">
+                    <VerticalStackLayout>
+                        <Label Text="Food/Water — preserve food (canning, drying). Keep long-term food staples (e.g., rice, beans, flour)." Style="{StaticResource ListItem}" />
+                        <Label Text="Water — learn multiple purification methods (boiling, chemical treatment, filters) and keep tools." Style="{StaticResource ListItem}" />
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
