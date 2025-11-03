@@ -1,6 +1,6 @@
-. "C:\Work\MagusCharacterGenerator\Deploy\Utils.ps1"
+. "C:\Work\ApocalypseNow\Deploy\Utils.ps1"
 
-Set-Location "C:\Work\MagusCharacterGenerator\"
+Set-Location "C:\Work\ApocalypseNow\"
 
 ### Install dependencies ###
 InstallDotnetToolIfNeeded -toolName "dotnet-coverage"
@@ -15,4 +15,4 @@ dotnet test --collect:"XPlat Code Coverage" -- DataCollectionRunSettings.DataCol
 reportgenerator "-reports:**\coverage.opencover.xml" "-targetdir:.\TestReport" -reporttypes:Html_Dark "-title:Unit tests"
 
 ### Open test coverage report ###
-Start-Process -FilePath "C:\Work\MagusCharacterGenerator\TestReport\index.html" -Verb open
+Start-Process -FilePath "C:\Work\ApocalypseNow\TestReport\index.html" -Verb open
