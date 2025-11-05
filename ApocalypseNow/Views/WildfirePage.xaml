@@ -9,12 +9,15 @@
         <VerticalStackLayout>
             <v:GeneralView />
 
-            <Border Padding="12">
-                <VerticalStackLayout>
-                    <Label Text="Wildfire preparedness — create a defensible zone around your home (clear combustible materials within ~10 meters)." Style="{StaticResource ListItem}" />
-                    <Label Text="If fire threatens — be ready to evacuate. Close windows and doors, but leave the garage door open." Style="{StaticResource ListItem}" />
-                </VerticalStackLayout>
-            </Border>
+            <VerticalStackLayout Padding="16" Spacing="12">
+                <Border Padding="12">
+                    <VerticalStackLayout>
+                        <Label Text="Wildfire preparedness — create a defensible zone around your home (clear combustible materials within ~10 meters)." Style="{StaticResource ListItem}" />
+                        <Label Text="If fire threatens — be ready to evacuate. Close windows and doors, but leave the garage door open." Style="{StaticResource ListItem}" />
+                        <Label Text="Do not keep gas cylinders indoors." Style="{StaticResource ListItem}" />
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

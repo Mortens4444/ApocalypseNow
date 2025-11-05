@@ -8,6 +8,16 @@
     <ScrollView>
         <VerticalStackLayout>
             <v:GeneralView />
+
+            <VerticalStackLayout Padding="16" Spacing="12">
+                <Border Padding="12">
+                    <VerticalStackLayout>
+                        <Label Text="Securing windows" Style="{StaticResource ListItem}" />
+                        <Label Text="Bringing in outdoor items" Style="{StaticResource ListItem}" />
+                        <Label Text="Safe generator use" Style="{StaticResource ListItem}" />
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

@@ -8,6 +8,16 @@
     <ScrollView>
         <VerticalStackLayout>
             <v:GeneralView />
+
+            <VerticalStackLayout Padding="16" Spacing="12">
+                <Border Padding="12">
+                    <VerticalStackLayout>
+                        <Label Text="Immediate protection — if fire occurs, evacuate immediately. For explosion risk, find strong cover." Style="{StaticResource ListItem}" />
+                        <Label Text="Vigilance — follow official announcements. Prepare for self-sufficiency and long-term uncertainty." Style="{StaticResource ListItem}" />
+                        <Label Text="Stay away from windows, glass, fireplaces and chimneys." Style="{StaticResource ListItem}" />
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

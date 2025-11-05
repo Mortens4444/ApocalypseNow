@@ -9,11 +9,15 @@
         <VerticalStackLayout>
             <v:GeneralView />
 
-            <Border Padding="12">
-                <VerticalStackLayout>
-                    <Label Text="Chemical contamination — same protocol as for nuclear: shelter-in-place. Remove contaminated clothing and wash if exposed." Style="{StaticResource ListItem}" />
-                </VerticalStackLayout>
-            </Border>
+            <VerticalStackLayout Padding="16" Spacing="12">
+                <Border Padding="12">
+                    <VerticalStackLayout>
+                        <Label Text="Chemical contamination — same protocol as for nuclear: shelter-in-place. Remove contaminated clothing and wash if exposed." Style="{StaticResource ListItem}" />
+                        <Label Text="Alert — seek the deepest shelter possible with as many walls and concrete between you and the outside as possible (e.g., basement)." Style="{StaticResource ListItem}" />
+                        <Label Text="Seal up — turn off ventilation, heating/AC. Seal windows and doors’ gaps with damp cloths." Style="{StaticResource ListItem}" />
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

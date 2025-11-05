@@ -14,6 +14,8 @@
                     <VerticalStackLayout>
                         <Label Text="Food/Water — preserve food (canning, drying). Keep long-term food staples (e.g., rice, beans, flour)." Style="{StaticResource ListItem}" />
                         <Label Text="Water — learn multiple purification methods (boiling, chemical treatment, filters) and keep tools." Style="{StaticResource ListItem}" />
+                        <Label Text="Implementing reliable, multi-stage water filtration systems is essential to ensure a continuous supply of safe, potable drinking water during periods of prolonged scarcity." Style="{StaticResource ListItem}" />
+                        <Label Text="Focusing on resilient local cultivation and effective long-term food storage methods are vital strategies for enhancing community self-sufficiency and mitigating widespread food shortages." Style="{StaticResource ListItem}" />
                     </VerticalStackLayout>
                 </Border>
             </VerticalStackLayout>

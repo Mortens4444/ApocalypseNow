@@ -8,6 +8,16 @@
     <ScrollView>
         <VerticalStackLayout>
             <v:GeneralView />
+
+            <VerticalStackLayout Padding="16" Spacing="12">
+                <Border Padding="12">
+                    <VerticalStackLayout>
+                        <Label Text="Self-sufficiency — learn basic gardening and home repair skills." Style="{StaticResource ListItem}" />
+                        <Label Text="Implementing effective rain catchment and soil enrichment techniques is crucial for maximizing garden water retention and reducing runoff during extreme weather events." Style="{StaticResource ListItem}" />
+                        <Label Text="Strategic shading, through planting native trees and installing awnings, significantly lowers urban temperatures, mitigating the dangerous effects of heat islands and saving energy." Style="{StaticResource ListItem}" />
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

@@ -9,21 +9,18 @@
         <VerticalStackLayout>
             <v:GeneralView />
 
-            <Border Padding="12">
-                <VerticalStackLayout>
-                    <Label Text="Heatwave — stay hydrated (drink water, not sugary drinks). Stay in cool, shaded places." Style="{StaticResource ListItem}" />
-                    <Label Text="Avoid strenuous activity during peak heat (10:00–16:00)." Style="{StaticResource ListItem}" />
-                </VerticalStackLayout>
-            </Border>
-
-            <Border Padding="12">
-                <VerticalStackLayout>
-                    <Label Text="Electrolytes — use salt and water for electrolyte replacement." Style="{StaticResource ListItem}" />
-                    <Label Text="Passive cooling — close curtains/blinds during the day to block sun." Style="{StaticResource ListItem}" />
-                    <Label Text="Cooling — use a wet towel for cooling exposed skin." Style="{StaticResource ListItem}" />
-                    <Label Text="Caution — avoid drinking too much plain water without salt (risk of hyponatremia!)." Style="{StaticResource ListItem}" />
-                </VerticalStackLayout>
-            </Border>
+            <VerticalStackLayout Padding="16" Spacing="12">
+                <Border Padding="12">
+                    <VerticalStackLayout>
+                        <Label Text="Heatwave — stay hydrated (drink water, not sugary drinks). Stay in cool, shaded places." Style="{StaticResource ListItem}" />
+                        <Label Text="Avoid strenuous activity during peak heat (10:00–16:00)." Style="{StaticResource ListItem}" />
+                        <Label Text="Electrolytes — use salt and water for electrolyte replacement." Style="{StaticResource ListItem}" />
+                        <Label Text="Passive cooling — close curtains/blinds during the day to block sun." Style="{StaticResource ListItem}" />
+                        <Label Text="Cooling — use a wet towel for cooling exposed skin." Style="{StaticResource ListItem}" />
+                        <Label Text="Caution — avoid drinking too much plain water without salt (risk of hyponatremia!)." Style="{StaticResource ListItem}" />
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

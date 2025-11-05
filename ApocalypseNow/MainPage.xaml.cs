@@ -9,7 +9,7 @@ namespace ApocalypseNow;
 
 internal partial class MainPage : ContentPage
 {
-    private Dictionary<object, string> originalTextElements;
+    private Dictionary<object, string>? originalTextElements;
 
     public MainPage()
     {
@@ -28,17 +28,22 @@ internal partial class MainPage : ContentPage
         {
             var selected = languages[LanguagePicker.SelectedIndex];
             Lng.DefaultLanguage = selected.ToLanguage();
-            if (originalTextElements != null)
-            {
-                Translator.SetOriginalTexts(originalTextElements);
-            }
-            originalTextElements = Translator.Translate(this);
+            Translate();
         };
     }
 
     protected override void OnAppearing()
     {
         base.OnAppearing();
+        Translate();
+    }
+
+    private void Translate()
+    {
+        if (originalTextElements != null)
+        {
+            Translator.SetOriginalTexts(originalTextElements);
+        }
         try
         {
             originalTextElements = Translator.Translate(this);

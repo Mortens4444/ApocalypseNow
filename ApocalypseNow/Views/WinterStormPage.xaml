@@ -9,14 +9,17 @@
         <VerticalStackLayout>
             <v:GeneralView />
 
-            <Border Padding="12">
-                <VerticalStackLayout>
-                    <Label Text="Prepare the home — insulate pipes, ensure alternative heating (stove, solid fuel heater)." Style="{StaticResource ListItem}" />
-                    <Label Text="Vehicle — keep a full tank, carry blankets, a first aid kit and snow chains in the car." Style="{StaticResource ListItem}" />
-                    <Label Text="Travel — avoid driving in freezing rain or severe storms." Style="{StaticResource ListItem}" />
-                </VerticalStackLayout>
-            </Border>
-
+            <VerticalStackLayout Padding="16" Spacing="12">
+                <Border Padding="12">
+                    <VerticalStackLayout>
+                        <Label Text="Prepare the home — insulate pipes, ensure alternative heating (stove, solid fuel heater)." Style="{StaticResource ListItem}" />
+                        <Label Text="Vehicle — keep a full tank, carry blankets, a first aid kit and snow chains in the car." Style="{StaticResource ListItem}" />
+                        <Label Text="Travel — avoid driving in freezing rain or severe storms." Style="{StaticResource ListItem}" />
+                        <Label Text="Keep extra blankets in the car." Style="{StaticResource ListItem}" />
+                        <Label Text="Store water in insulated containers and keep them indoors or underground to prevent freezing." Style="{StaticResource ListItem}" />
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

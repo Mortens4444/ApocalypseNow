@@ -5,5 +5,5 @@ internal partial class GeneralView : ContentView
 	public GeneralView()
 	{
 		InitializeComponent();
-	}
+    }
 }

@@ -9,13 +9,17 @@
         <VerticalStackLayout>
             <v:GeneralView />
 
-            <Border Padding="12">
-                <VerticalStackLayout>
-                    <Label Text="Immediate protection — if fire occurs, evacuate immediately. For explosion risk, find strong cover." Style="{StaticResource ListItem}" />
-                    <Label Text="In war — know designated shelters. Store at least two weeks’ worth of food and water." Style="{StaticResource ListItem}" />
-                    <Label Text="Vigilance — follow official announcements. Prepare for self-sufficiency and long-term uncertainty." Style="{StaticResource ListItem}" />
-                </VerticalStackLayout>
-            </Border>
+            <VerticalStackLayout Padding="16" Spacing="12">
+                <Border Padding="12">
+                    <VerticalStackLayout>
+                        <Label Text="Foil or darkening (cover windows). Check door locks." Style="{StaticResource NormalText}" />
+                        <Label Text="Immediate protection — if fire occurs, evacuate immediately. For explosion risk, find strong cover." Style="{StaticResource ListItem}" />
+                        <Label Text="In war — know designated shelters. Store at least two weeks’ worth of food and water." Style="{StaticResource ListItem}" />
+                        <Label Text="Vigilance — follow official announcements. Prepare for self-sufficiency and long-term uncertainty." Style="{StaticResource ListItem}" />
+                        <Label Text="Undetectable storage of water." Style="{StaticResource ListItem}" />
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

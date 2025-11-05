@@ -9,13 +9,15 @@
         <VerticalStackLayout>
             <v:GeneralView />
 
-            <Border Padding="12">
-                <VerticalStackLayout>
-                    <Label Text="Supplies — keep masks, hand sanitizer, cleaning supplies, and medicines (fever reducers, vitamins) at home." Style="{StaticResource ListItem}" />
-                    <Label Text="Hygiene — strict handwashing and physical distancing (social distancing)." Style="{StaticResource ListItem}" />
-                    <Label Text="Quarantine — be ready for isolation, including tools for remote work and remote schooling." Style="{StaticResource ListItem}" />
-                </VerticalStackLayout>
-            </Border>
+            <VerticalStackLayout Padding="16" Spacing="12">
+                <Border Padding="12">
+                    <VerticalStackLayout>
+                        <Label Text="Supplies — keep masks, hand sanitizer, cleaning supplies, and medicines (fever reducers, vitamins) at home." Style="{StaticResource ListItem}" />
+                        <Label Text="Hygiene — strict handwashing and physical distancing (social distancing)." Style="{StaticResource ListItem}" />
+                        <Label Text="Quarantine — be ready for isolation, including tools for remote work and remote schooling." Style="{StaticResource ListItem}" />
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

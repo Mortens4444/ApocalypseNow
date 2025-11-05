@@ -8,6 +8,15 @@
     <ScrollView>
         <VerticalStackLayout>
             <v:GeneralView />
+
+            <VerticalStackLayout Padding="16" Spacing="12">
+                <Border Padding="12">
+                    <VerticalStackLayout>
+                        <Label Text="Have a printed copy of important maps." Style="{StaticResource ListItem}" />
+                        <Label Text="Prepare for the digital payment shutdown." Style="{StaticResource ListItem}" />
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

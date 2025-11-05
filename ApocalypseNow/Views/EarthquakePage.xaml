@@ -9,16 +9,17 @@
         <VerticalStackLayout>
             <v:GeneralView />
 
-            <Border Padding="12">
-                <VerticalStackLayout>
-                    <Label Text="During shaking — Drop, Cover, Hold On. Get under a sturdy table or near an interior wall." Style="{StaticResource ListItem}" />
-                    <Label Text="Secure furniture — anchor tall furniture and bookshelves to the wall." Style="{StaticResource ListItem}" />
-                    <Label Text="Hazardous items — keep heavy or breakable items on low shelves." Style="{StaticResource ListItem}" />
-                    <Label Text="Stay away from windows, glass, fireplaces and chimneys." Style="{StaticResource ListItem}" />
-                    <Label Text="Aftershocks — be prepared. Check gas, water and electrical lines." Style="{StaticResource ListItem}" />
-                </VerticalStackLayout>
-            </Border>
-
+            <VerticalStackLayout Padding="16" Spacing="12">
+                <Border Padding="12">
+                    <VerticalStackLayout>
+                        <Label Text="During shaking — Drop, Cover, Hold On. Get under a sturdy table or near an interior wall." Style="{StaticResource ListItem}" />
+                        <Label Text="Secure furniture — anchor tall furniture and bookshelves to the wall." Style="{StaticResource ListItem}" />
+                        <Label Text="Hazardous items — keep heavy or breakable items on low shelves." Style="{StaticResource ListItem}" />
+                        <Label Text="Stay away from windows, glass, fireplaces and chimneys." Style="{StaticResource ListItem}" />
+                        <Label Text="Aftershocks — be prepared. Check gas, water and electrical lines." Style="{StaticResource ListItem}" />
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

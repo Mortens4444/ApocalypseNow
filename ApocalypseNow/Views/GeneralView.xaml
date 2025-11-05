@@ -6,10 +6,8 @@
 
     <VerticalStackLayout Padding="16" Spacing="12">
 
-        <!-- Tactical principles -->
         <Border Padding="12">
             <VerticalStackLayout>
-                <Label Text="Tactical principles" Style="{StaticResource SectionHeader}" />
                 <Label Text="Stay calm!" Style="{StaticResource ListItem}" />
                 <Label Text="Turn on energy saving mode on your devices" Style="{StaticResource ListItem}" />
                 <Label Text="Gather information, assess the situation" Style="{StaticResource ListItem}" />
@@ -18,20 +16,12 @@
                 <Label Text="Cooperate with neighbors" Style="{StaticResource ListItem}" />
                 <Label Text="Save water and energy" Style="{StaticResource ListItem}" />
                 <Label Text="Know who is competent at what" Style="{StaticResource ListItem}" />
-            </VerticalStackLayout>
-        </Border>
-
-        <!-- Communication -->
-        <Border Padding="12">
-            <VerticalStackLayout>
-                <Label Text="Communication plan" Style="{StaticResource SectionHeader}" />
-                <Label Text="A designated contact that everyone calls" Style="{StaticResource NormalText}" />
-
-                <Label Text="Emergency shutdown routines" Style="{StaticResource SectionHeader}" />
-                <Label Text="Everyone should know how to shut off the main water valve, the gas valve, and the main electrical breaker." Style="{StaticResource NormalText}" />
-
-                <Label Text="Light leaks / Security" Style="{StaticResource SectionHeader}" />
-                <Label Text="Foil or darkening (cover windows). Check door locks." Style="{StaticResource NormalText}" />
+                <Label Text="A designated contact that everyone calls" Style="{StaticResource ListItem}" />
+                <Label Text="Everyone should know how to shut off the main water valve, the gas valve, and the main electrical breaker." Style="{StaticResource ListItem}" />
+                <Label Text="Two escape routes" Style="{StaticResource ListItem}" />
+                <Label Text="Close assembly point" Style="{StaticResource ListItem}" />
+                <Label Text="Distant assembly point" Style="{StaticResource ListItem}" />
+                <Label Text="Clothing: layered change of clothes, raincoat, gloves, spare socks, sturdy footwear, boots" Style="{StaticResource ListItem}" />
             </VerticalStackLayout>
         </Border>
 
@@ -43,34 +33,61 @@
 
                 <Label Text="Equipment (suggested)" Style="{StaticResource SectionHeader}" />
 
-                <Grid ColumnDefinitions="*,*" RowSpacing="2">
-                    <!-- Left column -->
-                    <VerticalStackLayout Grid.Column="0">
+                <Grid RowSpacing="2">
+                    <VerticalStackLayout>
                         <Label Text="Water — 4 L/person/day (3–7 days)" Style="{StaticResource ListItem}" />
                         <Label Text="Bottled water or purification tablets, filter" Style="{StaticResource ListItem}" />
-                        <Label Text="Food — 3 days' worth, non-perishables, can opener" Style="{StaticResource ListItem}" />
-                        <Label Text="First aid kit — meds for 7 days, OTC, painkiller" Style="{StaticResource ListItem}" />
-                        <Label Text="Hand-crank or battery radio, charged power bank" Style="{StaticResource ListItem}" />
-                    </VerticalStackLayout>
+                        <Label Text="Food — 3 days' worth, non-perishables, canned goods, energy bars, dried fruits" Style="{StaticResource ListItem}" />
 
-                    <!-- Right column -->
-                    <VerticalStackLayout Grid.Column="1">
-                        <Label Text="Map, compass" Style="{StaticResource ListItem}" />
-                        <Label Text="Hygiene — soap, wet wipes, sanitizer, garbage bags" Style="{StaticResource ListItem}" />
-                        <Label Text="Multi-tool, pocketknife, headlamp, spare batteries" Style="{StaticResource ListItem}" />
-                        <Label Text="Cash (small bills), copies of documents (waterproof)" Style="{StaticResource ListItem}" />
-                        <Label Text="Sleeping bag / blanket, tent" Style="{StaticResource ListItem}" />
+                        <Label Text="First aid kit — meds for 7 days" Style="{StaticResource ListItem}" />
+                        <Label Text="Over-the-counter" Style="{StaticResource ListItem}" />
+                        <Label Text="Vitamins" Style="{StaticResource ListItem}" />
+                        <Label Text="Painkiller" Style="{StaticResource ListItem}" />
+                        <Label Text="Soap" Style="{StaticResource ListItem}" />
+                        <Label Text="Wet wipes" Style="{StaticResource ListItem}" />
+                        <Label Text="Sanitizer" Style="{StaticResource ListItem}" />
+                        <Label Text="Thermometer" Style="{StaticResource ListItem}" />
+                        <Label Text="Betadine" Style="{StaticResource ListItem}" />
+                        <Label Text="FFP2/FFP3 mask" Style="{StaticResource ListItem}" />
+                        
+                        <Label Text="Hand-crank lamp" Style="{StaticResource ListItem}" />
+                        <Label Text="Headlamp" Style="{StaticResource ListItem}" />
+                        <Label Text="Candles" Style="{StaticResource ListItem}" />
+
+                        <Label Text="Hand-crank or battery radio" Style="{StaticResource ListItem}" />
+                        <Label Text="CB radio" Style="{StaticResource ListItem}" />
+                        <Label Text="Paper, pen" Style="{StaticResource ListItem}" />
+                        
+                        <Label Text="Solar charger" Style="{StaticResource ListItem}" />
+                        <Label Text="Spare batteries" Style="{StaticResource ListItem}" />
+                        <Label Text="Charged power bank" Style="{StaticResource ListItem}" />
+
+                        <Label Text="Can opener" Style="{StaticResource ListItem}" />
+                        <Label Text="Match, lighter" Style="{StaticResource ListItem}" />
+                        <Label Text="Cash (small bills), precious metals, gemstones" Style="{StaticResource ListItem}" />
+                        <Label Text="Survival knife, multi-tool, pocketknife" Style="{StaticResource ListItem}" />
+                        <Label Text="Copies of documents (waterproof bag, cloud)" Style="{StaticResource ListItem}" />
+                        <Label Text="Sleeping bag, foil blanket, blanket" Style="{StaticResource ListItem}" />
+                        <Label Text="Tent" Style="{StaticResource ListItem}" />
+                        <Label Text="Map" Style="{StaticResource ListItem}" />
+                        <Label Text="Compass" Style="{StaticResource ListItem}" />
+                        <Label Text="Mirror" Style="{StaticResource ListItem}" />
+                        <Label Text="Garbage bags" Style="{StaticResource ListItem}" />
+                        <Label Text="Aluminum foil" Style="{StaticResource ListItem}" />
+                        <Label Text="Earplug" Style="{StaticResource ListItem}" />
+                        <Label Text="Duct tape" Style="{StaticResource ListItem}" />
+                        <Label Text="Rope / paracord" Style="{StaticResource ListItem}" />
+                        <Label Text="Stove / kettle" Style="{StaticResource ListItem}" />
+                        <Label Text="Bucket or barrel for storing water" Style="{StaticResource ListItem}" />
+                        <Label Text="Pepper spray" Style="{StaticResource ListItem}" />
+                        <Label Text="Loud alarm device" Style="{StaticResource ListItem}" />
+                        <Label Text="Child's favorite toy, blanket" Style="{StaticResource ListItem}" />                        
+
+                        <Label Text="Important phone numbers written on paper" Style="{StaticResource ListItem}" />                        
+                        
                     </VerticalStackLayout>
                 </Grid>
 
-                <Label Text="Clothing: layered change of clothes, raincoat, gloves, spare socks, sturdy footwear" Style="{StaticResource NormalText}" />
-            </VerticalStackLayout>
-        </Border>
-
-        <!-- Safety & Home prep -->
-        <Border Padding="12">
-            <VerticalStackLayout>
-                <Label Text="Two escape routes" Style="{StaticResource ListItem}" />
             </VerticalStackLayout>
         </Border>
     </VerticalStackLayout>

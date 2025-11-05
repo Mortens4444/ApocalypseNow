@@ -9,12 +9,14 @@
         <VerticalStackLayout>
             <v:GeneralView />
 
-            <Border Padding="12">
-                <VerticalStackLayout>
-                    <Label Text="Financial preparedness — minimize debts, build a 3–6 month emergency fund. Diversify savings." Style="{StaticResource ListItem}" />
-                    <Label Text="Self-sufficiency — learn basic gardening and home repair skills." Style="{StaticResource ListItem}" />
-                </VerticalStackLayout>
-            </Border>
+            <VerticalStackLayout Padding="16" Spacing="12">
+                <Border Padding="12">
+                    <VerticalStackLayout>
+                        <Label Text="Financial preparedness — minimize debts, build a 3–6 month emergency fund. Diversify savings." Style="{StaticResource ListItem}" />
+                        <Label Text="Self-sufficiency — learn basic gardening and home repair skills." Style="{StaticResource ListItem}" />
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
