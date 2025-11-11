@@ -1,2 +1,5 @@
 Bicycle, tools, aluminum foil, chain
 Add ToolsPage (Flashlight, compass, mirror, navigate to energy save options)
+
+Add survival guides
+	- Know the berries, what you can eat

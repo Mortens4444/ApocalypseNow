@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ApocalypseNow.Views.SurvivalGuidesPage"
+             x:ClassModifier="internal"
+             Title="Survival guide">
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="12">
+
+            <Border Padding="12">
+                <VerticalStackLayout>
+
+                    <Label Text="Survival priorities" Style="{StaticResource SectionHeader}" />
+
+                    <Border>
+                        <VerticalStackLayout>
+                            <Label Text="1. Water" Style="{StaticResource ListItem}" />
+                            <Label Text="2. Shelter" Style="{StaticResource ListItem}" />
+                            <Label Text="3. Warmth" Style="{StaticResource ListItem}" />
+                            <Label Text="4. Food" Style="{StaticResource ListItem}" />
+                        </VerticalStackLayout>
+                    </Border>
+
+                    <Label Text="Survival tips" Style="{StaticResource SectionHeader}" />
+                    <Border>
+                        <VerticalStackLayout>
+                            <Label Text="Drink warm liquids with sugar, but avoid caffeine." Style="{StaticResource ListItem}" />
+                            <Label Text="Dehydration – All water is unsafe until proven otherwise. Always boil before drinking." Style="{StaticResource ListItem}" />
+                            <Label Text="Do not drink alcohol if you show signs of hypothermia." Style="{StaticResource ListItem}" />
+                            <Label Text="Know multiple water purification methods." Style="{StaticResource ListItem}" />
+                            <Label Text="Understand the science: boiling kills pathogens with heat, solar disinfection uses UV radiation, sand and charcoal filters remove particles and some microbes, chemical treatment uses iodine or chlorine." Style="{StaticResource ListItem}" />
+                                
+                            <Label Text="Conserve energy. Remember STOP: (S)top moving, (T)hink of threats, (O)bserve resources, (P)lan. Find the simplest viable shelter don’t build if you can find one in nature." Style="{StaticResource ListItem}" />
+
+                            <Label Text="Get out of the wind." Style="{StaticResource ListItem}" />
+                            <Label Text="Remove wet clothes." Style="{StaticResource ListItem}" />
+                            <Label Text="Make a fire or use skin-to-skin contact for warmth." Style="{StaticResource ListItem}" />
+                            <Label Text="Know at least five different ways to start a fire." Style="{StaticResource ListItem}" />
+                            <Label Text="Use a battery and steel wool, or a chemical reaction with potassium permanganate and glycerin, to start a fire." Style="{StaticResource ListItem}" />
+                                
+                            <Label Text="If you cannot identify a plant with 100% cerainty, assume it is poisonous." Style="{StaticResource ListItem}" />
+                                
+                            <Label Text="Be prepared with skills, not just equipment." Style="{StaticResource ListItem}" />
+                            <Label Text="Use a bow drill made from sticks and cordage." Style="{StaticResource ListItem}" />
+                            <Label Text="Practice rope binding and knot tying." Style="{StaticResource ListItem}" />
+                            <Label Text="Learn first aid." Style="{StaticResource ListItem}" />
+                            <Label Text="Learn to read maps and navigate." Style="{StaticResource ListItem}" />
+                        </VerticalStackLayout>
+                    </Border>
+
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

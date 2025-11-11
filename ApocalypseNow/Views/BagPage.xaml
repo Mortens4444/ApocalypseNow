@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ApocalypseNow.Views.BagPage"
+             x:ClassModifier="internal"
+             Title="Emergency Bag (Bug-Out Bag - BOB)">
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="12">
+
+            <Border Padding="12">
+                <VerticalStackLayout>
+
+                    <Border>
+                        <VerticalStackLayout>
+                            <Label Text="Ferro rod, match, lighter, flint and steel" Style="{StaticResource ListItem}" FontAttributes="Bold" />
+                            <Label Text="Single wall stainless steel bottle with nesting cup (64 oz)" Style="{StaticResource ListItem}" FontAttributes="Bold" />
+                            <Label Text="8x10 or 10x10 heavy duty tarp in a dull natural color" Style="{StaticResource ListItem}" FontAttributes="Bold" />
+                            <Label Text="4 to 5 in full tang carbon steel fixed blade knife" Style="{StaticResource ListItem}" FontAttributes="Bold" />
+                            <Label Text="300 ft of number 36 bank line" Style="{StaticResource ListItem}" FontAttributes="Bold" />
+                            <Label Text="5 or more 55 gallon heavyduty contractor bags" Style="{StaticResource ListItem}" FontAttributes="Bold" />
+                            <Label Text="One roll of high quality Gorilla brand duct tape" Style="{StaticResource ListItem}" FontAttributes="Bold" />
+                            <Label Text="Repair system" Style="{StaticResource ListItem}" FontAttributes="Bold" />
+                        </VerticalStackLayout>
+                    </Border>
+
+                    <Border>
+                        <VerticalStackLayout>
+                            <Label Text="Water — 4 L/person/day (3–7 days)" Style="{StaticResource ListItem}" />
+                            <Label Text="Bottled water or purification tablets, filter" Style="{StaticResource ListItem}" />
+                            <Label Text="High quality water filter (S72) rated specifically for bacteria and prozzoa" Style="{StaticResource ListItem}" />
+                            <Label Text="Chemical purification tablets (iodine or chlorine dioxide)" Style="{StaticResource ListItem}" />
+                            <Label Text="Food — 3 days' worth, non-perishables, canned goods, energy bars, dried fruits" Style="{StaticResource ListItem}" />
+
+                            <Label Text="First aid kit — meds for 7 days" Style="{StaticResource ListItem}" />
+                            <Label Text="Over-the-counter" Style="{StaticResource ListItem}" />
+                            <Label Text="Vitamins" Style="{StaticResource ListItem}" />
+                            <Label Text="Painkiller" Style="{StaticResource ListItem}" />
+                            <Label Text="Soap" Style="{StaticResource ListItem}" />
+                            <Label Text="Wet wipes" Style="{StaticResource ListItem}" />
+                            <Label Text="Sanitizer" Style="{StaticResource ListItem}" />
+                            <Label Text="Thermometer" Style="{StaticResource ListItem}" />
+                            <Label Text="Iodine-based tincture (Betadine)" Style="{StaticResource ListItem}" />
+                            <Label Text="FFP2/FFP3 mask" Style="{StaticResource ListItem}" />
+
+                            <Label Text="Hand-crank lamp" Style="{StaticResource ListItem}" />
+                            <Label Text="Headlamp" Style="{StaticResource ListItem}" />
+                            <Label Text="Candles" Style="{StaticResource ListItem}" />
+
+                            <Label Text="Hand-crank or battery radio" Style="{StaticResource ListItem}" />
+                            <Label Text="CB radio" Style="{StaticResource ListItem}" />
+                            <Label Text="Paper, pen" Style="{StaticResource ListItem}" />
+
+                            <Label Text="Solar charger" Style="{StaticResource ListItem}" />
+                            <Label Text="Spare batteries" Style="{StaticResource ListItem}" />
+                            <Label Text="Charged power bank" Style="{StaticResource ListItem}" />
+
+                            <Label Text="Can opener" Style="{StaticResource ListItem}" />
+                            <Label Text="Cash (small bills), precious metals, gemstones" Style="{StaticResource ListItem}" />
+                            <Label Text="Survival knife, multi-tool, pocketknife" Style="{StaticResource ListItem}" />
+                            <Label Text="Copies of documents (waterproof bag, cloud)" Style="{StaticResource ListItem}" />
+                            <Label Text="Sleeping bag, foil blanket, blanket" Style="{StaticResource ListItem}" />
+                            <Label Text="Tent" Style="{StaticResource ListItem}" />
+                            <Label Text="Map" Style="{StaticResource ListItem}" />
+                            <Label Text="Compass" Style="{StaticResource ListItem}" />
+                            <Label Text="Mirror" Style="{StaticResource ListItem}" />
+                            <Label Text="Magnifier" Style="{StaticResource ListItem}" />
+                            <Label Text="Garbage bags" Style="{StaticResource ListItem}" />
+                            <Label Text="Aluminum foil" Style="{StaticResource ListItem}" />
+                            <Label Text="Earplug" Style="{StaticResource ListItem}" />
+                            <Label Text="Rope / paracord" Style="{StaticResource ListItem}" />
+                            <Label Text="Fishing line" Style="{StaticResource ListItem}" />
+                            <Label Text="Stove / kettle" Style="{StaticResource ListItem}" />
+                            <Label Text="Bucket or barrel for storing water" Style="{StaticResource ListItem}" />
+                            <Label Text="Pepper spray" Style="{StaticResource ListItem}" />
+                            <Label Text="Loud alarm device" Style="{StaticResource ListItem}" />
+                            <Label Text="Child's favorite toy, blanket" Style="{StaticResource ListItem}" />
+
+                            <Label Text="Important phone numbers written on paper" Style="{StaticResource ListItem}" />
+                        </VerticalStackLayout>
+                    </Border>
+
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

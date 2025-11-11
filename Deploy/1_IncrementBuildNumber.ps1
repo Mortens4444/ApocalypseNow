@@ -3,7 +3,7 @@ param(
     [string]$ManifestPath = "..\ApocalypseNow\Platforms\Android\AndroidManifest.xml"
 )
 
-$currentDirectory = "C:\Work\ApocalypseNow\Deploy"
+$currentDirectory = "F:\Work\ApocalypseNow\Deploy"
 $csprojFullPath = [System.IO.Path]::Combine($currentDirectory, $CsprojPath)
 $manifestFullPath = [System.IO.Path]::Combine($currentDirectory, $ManifestPath)
 

@@ -1,6 +1,6 @@
-. "C:\Work\ApocalypseNow\Deploy\Utils.ps1"
+. "F:\Work\ApocalypseNow\Deploy\Utils.ps1"
 
-Set-Location "C:\Work\ApocalypseNow\"
+Set-Location "F:\Work\ApocalypseNow\"
 
 ### Install dependencies ###
 InstallDotnetToolIfNeeded -toolName "dotnet-coverage"
@@ -15,4 +15,4 @@ dotnet test --collect:"XPlat Code Coverage" -- DataCollectionRunSettings.DataCol
 reportgenerator "-reports:**\coverage.opencover.xml" "-targetdir:.\TestReport" -reporttypes:Html_Dark "-title:Unit tests"
 
 ### Open test coverage report ###
-Start-Process -FilePath "C:\Work\ApocalypseNow\TestReport\index.html" -Verb open
+Start-Process -FilePath "F:\Work\ApocalypseNow\TestReport\index.html" -Verb open

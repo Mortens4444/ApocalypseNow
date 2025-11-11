@@ -13,45 +13,56 @@
 
             <VerticalStackLayout>
                 <HorizontalStackLayout HorizontalOptions="Center">
-                    <mc:MenuItemView ImageName="power_outage" LabelText="Power outage" PageType="{x:Type v:PowerOutagePage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="network_outage" LabelText="Network outages" PageType="{x:Type v:NetworkOutagePage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="internet_outage" LabelText="Internet outage" PageType="{x:Type v:InternetOutagePage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="economic_crisis" LabelText="Economic crisis" PageType="{x:Type v:EconomicCrisisPage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="bag" LabelText="Emergency Bag" PageType="{x:Type v:BagPage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="pandemic" LabelText="Epidemic, pandemic" PageType="{x:Type v:PandemicPage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="economic_crisis" LabelText="Economic crisis" PageType="{x:Type v:EconomicCrisisPage}" WidthRequest="100" HeightRequest="100" />
+                </HorizontalStackLayout>
+                
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <mc:MenuItem ImageName="power_outage" LabelText="Power outage" PageType="{x:Type v:PowerOutagePage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="network_outage" LabelText="Network outages" PageType="{x:Type v:NetworkOutagePage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="internet_outage" LabelText="Internet outage" PageType="{x:Type v:InternetOutagePage}" WidthRequest="100" HeightRequest="100" />
                 </HorizontalStackLayout>
 
                 <HorizontalStackLayout HorizontalOptions="Center">
-                    <mc:MenuItemView ImageName="pandemic" LabelText="Epidemic, pandemic" PageType="{x:Type v:PandemicPage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="cyber_catastrophe" LabelText="Cyber catastrophe" PageType="{x:Type v:CyberCatastrophePage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="earthquake" LabelText="Earthquake" PageType="{x:Type v:EarthquakePage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="extreme_weather" LabelText="Extreme weather" PageType="{x:Type v:ExtremeWeatherPage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="earthquake" LabelText="Earthquake" PageType="{x:Type v:EarthquakePage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="extreme_weather" LabelText="Extreme weather" PageType="{x:Type v:ExtremeWeatherPage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="climate_change" LabelText="Climate change" PageType="{x:Type v:ClimateChangePage}" WidthRequest="100" HeightRequest="100" />
+                </HorizontalStackLayout>
+                
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <mc:MenuItem ImageName="heatwaves" LabelText="Heatwaves, drought" PageType="{x:Type v:HeatwavesPage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="fire" LabelText="Forest and brush fires" PageType="{x:Type v:WildfirePage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="volcano" LabelText="Volcanic eruption" PageType="{x:Type v:VolcanoPage}" WidthRequest="100" HeightRequest="100" />
                 </HorizontalStackLayout>
 
                 <HorizontalStackLayout HorizontalOptions="Center">
-                    <mc:MenuItemView ImageName="climate_change" LabelText="Climate change" PageType="{x:Type v:ClimateChangePage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="heatwaves" LabelText="Heatwaves, drought" PageType="{x:Type v:HeatwavesPage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="fire" LabelText="Forest and brush fires" PageType="{x:Type v:WildfirePage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="volcano" LabelText="Volcanic eruption" PageType="{x:Type v:VolcanoPage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="flooding" LabelText="Flooding and inland water" PageType="{x:Type v:FloodingPage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="hurricane" LabelText="Hurricane, typhoon" PageType="{x:Type v:HurricanePage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="tsunami" LabelText="Tsunami" PageType="{x:Type v:TsunamiPage}" WidthRequest="100" HeightRequest="100" />
                 </HorizontalStackLayout>
 
                 <HorizontalStackLayout HorizontalOptions="Center">
-                    <mc:MenuItemView ImageName="winter_storm" LabelText="Winter storm, freezing rain" PageType="{x:Type v:WinterStormPage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="flooding" LabelText="Flooding and inland water" PageType="{x:Type v:FloodingPage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="hurricane" LabelText="Hurricane, typhoon" PageType="{x:Type v:HurricanePage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="tsunami" LabelText="Tsunami" PageType="{x:Type v:TsunamiPage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="winter_storm" LabelText="Winter storm, freezing rain" PageType="{x:Type v:WinterStormPage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="shortage" LabelText="Food / drinking water shortage" PageType="{x:Type v:ShortagePage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="chemical" LabelText="Chemical contamination" PageType="{x:Type v:ChemicalPage}" WidthRequest="100" HeightRequest="100" />
+                </HorizontalStackLayout>
+                
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <mc:MenuItem ImageName="explosion" LabelText="Explosion" PageType="{x:Type v:ExplosionPage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="war" LabelText="War" PageType="{x:Type v:WarPage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="nuclear" LabelText="Nuclear accident or weapon" PageType="{x:Type v:NuclearPage}" WidthRequest="100" HeightRequest="100" />
                 </HorizontalStackLayout>
 
                 <HorizontalStackLayout HorizontalOptions="Center">
-                    <mc:MenuItemView ImageName="chemical" LabelText="Chemical contamination" PageType="{x:Type v:ChemicalPage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="explosion" LabelText="Explosion" PageType="{x:Type v:ExplosionPage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="war" LabelText="War" PageType="{x:Type v:WarPage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="meteor" LabelText="Meteor" PageType="{x:Type v:MeteorPage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="meteor" LabelText="Meteor" PageType="{x:Type v:MeteorPage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="cyber_catastrophe" LabelText="Cyber catastrophe" PageType="{x:Type v:CyberCatastrophePage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="ai_takeover" LabelText="AI takeover" PageType="{x:Type v:AITakeoverPage}" WidthRequest="100" HeightRequest="100" />
                 </HorizontalStackLayout>
 
                 <HorizontalStackLayout HorizontalOptions="Center">
-                    <mc:MenuItemView ImageName="shortage" LabelText="Food / drinking water shortage" PageType="{x:Type v:ShortagePage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="nuclear" LabelText="Nuclear accident or weapon" PageType="{x:Type v:NuclearPage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItemView ImageName="ai_takeover" LabelText="AI takeover" PageType="{x:Type v:AITakeoverPage}" WidthRequest="100" HeightRequest="100" />
-                    <!--<mc:MenuItemView ImageName="test" LabelText="Test" PageType="{x:Type v:ApocalypseChecklistPage}" WidthRequest="100" HeightRequest="100" />-->
+                    <mc:MenuItem ImageName="guide" LabelText="Survival guide" PageType="{x:Type v:SurvivalGuidesPage}" WidthRequest="100" HeightRequest="100" />
+                    <!--<mc:MenuItem ImageName="test" LabelText="Test" PageType="{x:Type v:ApocalypseChecklistPage}" WidthRequest="100" HeightRequest="100" />-->
                 </HorizontalStackLayout>
 
             </VerticalStackLayout>

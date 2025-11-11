@@ -1,4 +1,4 @@
-$solutionDirectory = "C:\Work\ApocalypseNow"
+$solutionDirectory = "F:\Work\ApocalypseNow"
 $path = "$solutionDirectory\ApocalypseNow\bin\Release\net9.0-android\publish"
 
 Write-Host "Cleaning...";

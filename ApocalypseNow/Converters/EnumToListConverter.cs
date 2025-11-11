@@ -6,9 +6,12 @@ internal class EnumToListConverter : IValueConverter
 {
     public object? Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
     {
-        // parameter is the enum Type
         var enumType = parameter as Type;
-        if (enumType == null || !enumType.IsEnum) return null;
+        if (enumType == null || !enumType.IsEnum)
+        {
+            return null;
+        }
+
         var values = Enum.GetValues(enumType).Cast<object>().ToList();
         return values;
     }

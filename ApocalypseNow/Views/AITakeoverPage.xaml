@@ -15,7 +15,7 @@
                         <Label Text="Radio silence." Style="{StaticResource ListItem}" />
                         <Label Text="Air gap! Disconnect all network cables (Internet, phone)." Style="{StaticResource ListItem}" />
                         <Label Text="Turn off Wi-Fi." Style="{StaticResource ListItem}" />
-                        <Label Text="Power off or destroy connected devices — routers, cameras, IoT, smart home systems (Alexa, Google Home, etc.)." Style="{StaticResource ListItem}" />
+                        <Label Text="Power off or destroy connected devices - routers, cameras, IoT, smart home systems (Alexa, Google Home, etc.)." Style="{StaticResource ListItem}" />
                         <Label Text="Stay in groups." Style="{StaticResource ListItem}" />
                         <Label Text="Exchange information carefully — beware of disinformation." Style="{StaticResource ListItem}" />
                         <Label Text="Share resources within trusted groups." Style="{StaticResource ListItem}" />
@@ -26,7 +26,7 @@
                         <Label Text="Prefer mechanical solutions (locks and keys)." Style="{StaticResource ListItem}" />
                         <Label Text="Use older vehicles with minimal electronics." Style="{StaticResource ListItem}" />
                         <Label Text="Avoid confrontation." Style="{StaticResource ListItem}" />
-                        <Label Text="Find shelter similar to a Faraday cage — thick metal or reinforced concrete structures — to block radiation and disrupt robotic communication." Style="{StaticResource ListItem}" />
+                        <Label Text="Find shelter similar to a Faraday cage - thick metal or reinforced concrete structures — to block radiation and disrupt robotic communication." Style="{StaticResource ListItem}" />
                         <Label Text="Avoid open or easily observable areas (drone threat). Seek natural cover." Style="{StaticResource ListItem}" />
                         <Label Text="Avoid GPS, mobile phones, or any digital transmitters. Use only paper maps and a compass." Style="{StaticResource ListItem}" />
                         <Label Text="Use short-wave (CB/PMR) or analog radios only for essential life-saving communication, briefly and with caution. Maintain radio silence when possible — signals can be detected, and AI can quickly break digital encryption." Style="{StaticResource ListItem}" />

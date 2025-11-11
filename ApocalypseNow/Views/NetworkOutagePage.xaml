@@ -12,7 +12,7 @@
             <VerticalStackLayout Padding="16" Spacing="12">
                 <Border Padding="12">
                     <VerticalStackLayout>
-                        <Label Text="If mobile network fails, use SMS — it may still go through when calls or data do not." Style="{StaticResource ListItem}" />
+                        <Label Text="If mobile network fails, use SMS - it may still go through when calls or data do not." Style="{StaticResource ListItem}" />
                     </VerticalStackLayout>
                 </Border>
             </VerticalStackLayout>
