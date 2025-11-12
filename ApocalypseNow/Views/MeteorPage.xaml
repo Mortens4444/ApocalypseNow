@@ -12,8 +12,8 @@
             <VerticalStackLayout Padding="16" Spacing="12">
                 <Border Padding="12">
                     <VerticalStackLayout>
-                        <Label Text="Stay away from windows, glass, fireplaces and chimneys." Style="{StaticResource ListItem}" />
-                        <Label Text="Use FFP3 mask and safety glasses." Style="{StaticResource ListItem}" />
+                        <Label Text="Stay away from windows, glass, fireplaces and chimneys." />
+                        <Label Text="Use FFP3 mask and safety glasses." />
                     </VerticalStackLayout>
                 </Border>
             </VerticalStackLayout>

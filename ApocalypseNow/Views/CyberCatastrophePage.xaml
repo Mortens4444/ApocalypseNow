@@ -12,7 +12,7 @@
             <VerticalStackLayout Padding="16" Spacing="12">
                 <Border Padding="12">
                     <VerticalStackLayout>
-                        <Label Text="Create local file backup." Style="{StaticResource ListItem}" />
+                        <Label Text="Create local file backup." />
                     </VerticalStackLayout>
                 </Border>
             </VerticalStackLayout>

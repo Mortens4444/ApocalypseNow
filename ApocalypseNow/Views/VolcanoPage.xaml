@@ -12,9 +12,9 @@
             <VerticalStackLayout Padding="16" Spacing="12">
                 <Border Padding="12">
                     <VerticalStackLayout>
-                        <Label Text="Volcanic ash — close all doors and windows. Use a respirator or a damp cloth to breathe through." Style="{StaticResource ListItem}" />
-                        <Label Text="Ashfall — protect electronics and machinery, do not drive. Clear roofs to avoid collapse." Style="{StaticResource ListItem}" />
-                        <Label Text="Use FFP3 mask and safety glasses." Style="{StaticResource ListItem}" />
+                        <Label Text="Volcanic ash - close all doors and windows. Use a respirator or a damp cloth to breathe through." />
+                        <Label Text="Ashfall - protect electronics and machinery, do not drive. Clear roofs to avoid collapse." />
+                        <Label Text="Use FFP3 mask and safety glasses." />
                     </VerticalStackLayout>
                 </Border>
             </VerticalStackLayout>

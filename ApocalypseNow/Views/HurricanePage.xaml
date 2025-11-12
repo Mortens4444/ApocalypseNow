@@ -12,15 +12,15 @@
             <VerticalStackLayout Padding="16" Spacing="12">
                 <Border Padding="12">
                     <VerticalStackLayout>
-                        <Label Text="Turn on the radio/TV. Recognize evacuation orders and routes." Style="{StaticResource ListItem}" />
-                        <Label Text="Seal drains/openings, place sandbags at doors (for inland flooding)." Style="{StaticResource ListItem}" />
-                        <Label Text="Evacuation — NEVER drive through flooded roads ('Turn Around, Don\'t Drown')." Style="{StaticResource ListItem}" />
-                        <Label Text="When leaving home — switch off the mains electricity breaker, shut off the gas." Style="{StaticResource ListItem}" />
-                        <Label Text="Move valuables to upper floors." Style="{StaticResource ListItem}" />
-                        <Label Text="Go to a room protected from the wind." Style="{StaticResource ListItem}" />
-                        <Label Text="Prune trees in advance." Style="{StaticResource ListItem}" />
-                        <Label Text="Foil breakable glass." Style="{StaticResource ListItem}" />
-                        <Label Text="Aftermath — do not re-enter the building until authorities say it\'s safe. Check for hidden structural damage." Style="{StaticResource ListItem}" />
+                        <Label Text="Turn on the radio/TV. Recognize evacuation orders and routes." />
+                        <Label Text="Seal drains/openings, place sandbags at doors (for inland flooding)." />
+                        <Label Text="Evacuation - NEVER drive through flooded roads ('Turn Around, Don\'t Drown')." />
+                        <Label Text="When leaving home - switch off the mains electricity breaker, shut off the gas." />
+                        <Label Text="Move valuables to upper floors." />
+                        <Label Text="Go to a room protected from the wind." />
+                        <Label Text="Prune trees in advance." />
+                        <Label Text="Foil breakable glass." />
+                        <Label Text="Aftermath - do not re-enter the building until authorities say it\'s safe. Check for hidden structural damage." />
                     </VerticalStackLayout>
                 </Border>
             </VerticalStackLayout>

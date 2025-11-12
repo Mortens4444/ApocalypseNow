@@ -12,8 +12,8 @@
             <VerticalStackLayout Padding="16" Spacing="12">
                 <Border Padding="12">
                     <VerticalStackLayout>
-                        <Label Text="Tsunami warning — if you feel an earthquake at the coast, immediately move to higher ground! Follow official alerts." Style="{StaticResource ListItem}" />
-                        <Label Text="Height Safety — move to terrain above 30 meters (100 feet) above sea level immediately upon warning or strong earthquake." Style="{StaticResource ListItem}" />
+                        <Label Text="Tsunami warning - if you feel an earthquake at the coast, immediately move to higher ground! Follow official alerts." />
+                        <Label Text="Height Safety - move to terrain above 30 meters (100 feet) above sea level immediately upon warning or strong earthquake." />
                     </VerticalStackLayout>
                 </Border>
             </VerticalStackLayout>

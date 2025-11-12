@@ -12,11 +12,11 @@
             <VerticalStackLayout Padding="16" Spacing="12">
                 <Border Padding="12">
                     <VerticalStackLayout>
-                        <Label Text="Alert — seek the deepest shelter possible with as many walls and concrete between you and the outside as possible (e.g., basement)." Style="{StaticResource ListItem}" />
-                        <Label Text="Seal up — turn off ventilation, heating/AC. Seal windows and doors’ gaps with damp cloths." Style="{StaticResource ListItem}" />
-                        <Label Text="Radiation protection — iodine tablets (only on official instruction!)." Style="{StaticResource ListItem}" />
-                        <Label Text="Ensure a sufficient supply of filtered, potable water." Style="{StaticResource ListItem}" />
-                        <Label Text="Wash all contaminated clothing thoroughly, starting with the exterior and then the interior, to remove radioactive particles." Style="{StaticResource ListItem}" />
+                        <Label Text="Alert - seek the deepest shelter possible with as many walls and concrete between you and the outside as possible (e.g., basement)." />
+                        <Label Text="Seal up - turn off ventilation, heating/AC. Seal windows and doors’ gaps with damp cloths." />
+                        <Label Text="Radiation protection - iodine tablets (only on official instruction!)." />
+                        <Label Text="Ensure a sufficient supply of filtered, potable water." />
+                        <Label Text="Wash all contaminated clothing thoroughly, starting with the exterior and then the interior, to remove radioactive particles." />
                     </VerticalStackLayout>
                 </Border>
             </VerticalStackLayout>

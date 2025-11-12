@@ -12,24 +12,24 @@
             <VerticalStackLayout Padding="16" Spacing="12">
                 <Border Padding="12">
                     <VerticalStackLayout>
-                        <Label Text="Radio silence." Style="{StaticResource ListItem}" />
-                        <Label Text="Air gap! Disconnect all network cables (Internet, phone)." Style="{StaticResource ListItem}" />
-                        <Label Text="Turn off Wi-Fi." Style="{StaticResource ListItem}" />
-                        <Label Text="Power off or destroy connected devices - routers, cameras, IoT, smart home systems (Alexa, Google Home, etc.)." Style="{StaticResource ListItem}" />
-                        <Label Text="Stay in groups." Style="{StaticResource ListItem}" />
-                        <Label Text="Exchange information carefully — beware of disinformation." Style="{StaticResource ListItem}" />
-                        <Label Text="Share resources within trusted groups." Style="{StaticResource ListItem}" />
-                        <Label Text="Turn off Bluetooth and NFC." Style="{StaticResource ListItem}" />
-                        <Label Text="Use old or non-smart devices when possible." Style="{StaticResource ListItem}" />
-                        <Label Text="Use USB drives only once on infected or unknown machines." Style="{StaticResource ListItem}" />
-                        <Label Text="Exchange files offline only." Style="{StaticResource ListItem}" />
-                        <Label Text="Prefer mechanical solutions (locks and keys)." Style="{StaticResource ListItem}" />
-                        <Label Text="Use older vehicles with minimal electronics." Style="{StaticResource ListItem}" />
-                        <Label Text="Avoid confrontation." Style="{StaticResource ListItem}" />
-                        <Label Text="Find shelter similar to a Faraday cage - thick metal or reinforced concrete structures — to block radiation and disrupt robotic communication." Style="{StaticResource ListItem}" />
-                        <Label Text="Avoid open or easily observable areas (drone threat). Seek natural cover." Style="{StaticResource ListItem}" />
-                        <Label Text="Avoid GPS, mobile phones, or any digital transmitters. Use only paper maps and a compass." Style="{StaticResource ListItem}" />
-                        <Label Text="Use short-wave (CB/PMR) or analog radios only for essential life-saving communication, briefly and with caution. Maintain radio silence when possible — signals can be detected, and AI can quickly break digital encryption." Style="{StaticResource ListItem}" />
+                        <Label Text="Radio silence." />
+                        <Label Text="Air gap! Disconnect all network cables (Internet, phone)." />
+                        <Label Text="Turn off Wi-Fi." />
+                        <Label Text="Power off or destroy connected devices - routers, cameras, IoT, smart home systems (Alexa, Google Home, etc.)." />
+                        <Label Text="Stay in groups." />
+                        <Label Text="Exchange information carefully - beware of disinformation." />
+                        <Label Text="Share resources within trusted groups." />
+                        <Label Text="Turn off Bluetooth and NFC." />
+                        <Label Text="Use old or non-smart devices when possible." />
+                        <Label Text="Use USB drives only once on infected or unknown machines." />
+                        <Label Text="Exchange files offline only." />
+                        <Label Text="Prefer mechanical solutions (locks and keys)." />
+                        <Label Text="Use older vehicles with minimal electronics." />
+                        <Label Text="Avoid confrontation." />
+                        <Label Text="Find shelter similar to a Faraday cage - thick metal or reinforced concrete structures - to block radiation and disrupt robotic communication." />
+                        <Label Text="Avoid open or easily observable areas (drone threat). Seek natural cover." />
+                        <Label Text="Avoid GPS, mobile phones, or any digital transmitters. Use only paper maps and a compass." />
+                        <Label Text="Use short-wave (CB/PMR) or analog radios only for essential life-saving communication, briefly and with caution. Maintain radio silence when possible - signals can be detected, and AI can quickly break digital encryption." />
                     </VerticalStackLayout>
                 </Border>
             </VerticalStackLayout>

@@ -12,9 +12,9 @@
             <VerticalStackLayout Padding="16" Spacing="12">
                 <Border Padding="12">
                     <VerticalStackLayout>
-                        <Label Text="Supplies — keep masks, hand sanitizer, cleaning supplies, and medicines (fever reducers, vitamins) at home." Style="{StaticResource ListItem}" />
-                        <Label Text="Hygiene — strict handwashing and physical distancing (social distancing)." Style="{StaticResource ListItem}" />
-                        <Label Text="Quarantine — be ready for isolation, including tools for remote work and remote schooling." Style="{StaticResource ListItem}" />
+                        <Label Text="Supplies - keep masks, hand sanitizer, cleaning supplies, and medicines (fever reducers, vitamins) at home." />
+                        <Label Text="Hygiene - strict handwashing and physical distancing (social distancing)." />
+                        <Label Text="Quarantine - be ready for isolation, including tools for remote work and remote schooling." />
                     </VerticalStackLayout>
                 </Border>
             </VerticalStackLayout>

@@ -8,20 +8,20 @@
 
         <Border Padding="12">
             <VerticalStackLayout>
-                <Label Text="Stay calm!" Style="{StaticResource ListItem}" />
-                <Label Text="Turn on energy saving mode on your devices" Style="{StaticResource ListItem}" />
-                <Label Text="Gather information, assess the situation" Style="{StaticResource ListItem}" />
-                <Label Text="Secure the family" Style="{StaticResource ListItem}" />
-                <Label Text="Shelter-in-place vs evacuate?" Style="{StaticResource ListItem}" />
-                <Label Text="Cooperate with neighbors" Style="{StaticResource ListItem}" />
-                <Label Text="Save water and energy" Style="{StaticResource ListItem}" />
-                <Label Text="Know who is competent at what" Style="{StaticResource ListItem}" />
-                <Label Text="A designated contact that everyone calls" Style="{StaticResource ListItem}" />
-                <Label Text="Everyone should know how to shut off the main water valve, the gas valve, and the main electrical breaker." Style="{StaticResource ListItem}" />
-                <Label Text="Two escape routes" Style="{StaticResource ListItem}" />
-                <Label Text="Close assembly point" Style="{StaticResource ListItem}" />
-                <Label Text="Distant assembly point" Style="{StaticResource ListItem}" />
-                <Label Text="Clothing: layered change of clothes, raincoat, gloves, spare socks, sturdy footwear, boots" Style="{StaticResource ListItem}" />
+                <Label Text="Stay calm!" />
+                <Label Text="Turn on energy saving mode on your devices" />
+                <Label Text="Gather information, assess the situation" />
+                <Label Text="Secure the family" />
+                <Label Text="Shelter-in-place vs evacuate?" />
+                <Label Text="Cooperate with neighbors" />
+                <Label Text="Save water and energy" />
+                <Label Text="Know who is competent at what" />
+                <Label Text="A designated contact that everyone calls" />
+                <Label Text="Everyone should know how to shut off the main water valve, the gas valve, and the main electrical breaker." />
+                <Label Text="Two escape routes" />
+                <Label Text="Close assembly point" />
+                <Label Text="Distant assembly point" />
+                <Label Text="Clothing: layered change of clothes, raincoat, gloves, spare socks, sturdy footwear, boots" />
             </VerticalStackLayout>
         </Border>
     </VerticalStackLayout>

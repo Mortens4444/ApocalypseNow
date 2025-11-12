@@ -12,8 +12,8 @@
             <VerticalStackLayout Padding="16" Spacing="12">
                 <Border Padding="12">
                     <VerticalStackLayout>
-                        <Label Text="Have a printed copy of important maps." Style="{StaticResource ListItem}" />
-                        <Label Text="Prepare for the digital payment shutdown." Style="{StaticResource ListItem}" />
+                        <Label Text="Have a printed copy of important maps." />
+                        <Label Text="Prepare for the digital payment shutdown." />
                     </VerticalStackLayout>
                 </Border>
             </VerticalStackLayout>

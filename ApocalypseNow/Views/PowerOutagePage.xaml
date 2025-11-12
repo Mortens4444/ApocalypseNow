@@ -12,9 +12,9 @@
             <VerticalStackLayout Padding="16" Spacing="12">
                 <Border Padding="12">
                     <VerticalStackLayout>
-                        <Label Text="Lighting - Do not use candles (fire hazard!), use LED flashlights instead." Style="{StaticResource ListItem}" />
-                        <Label Text="Communication - Listen to official announcements with a battery-powered radio." Style="{StaticResource ListItem}" />
-                        <Label Text="Food - Keep the refrigerator/freezer door closed (food can stay fresh for 24-48 hours)." Style="{StaticResource ListItem}" />
+                        <Label Text="Lighting - Do not use candles (fire hazard!), use LED flashlights instead." />
+                        <Label Text="Communication - Listen to official announcements with a battery-powered radio." />
+                        <Label Text="Food - Keep the refrigerator/freezer door closed (food can stay fresh for 24-48 hours)." />
                     </VerticalStackLayout>
                 </Border>
             </VerticalStackLayout>

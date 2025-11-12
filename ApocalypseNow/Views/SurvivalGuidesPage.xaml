@@ -11,43 +11,75 @@
                 <VerticalStackLayout>
 
                     <Label Text="Survival priorities" Style="{StaticResource SectionHeader}" />
-
                     <Border>
                         <VerticalStackLayout>
-                            <Label Text="1. Water" Style="{StaticResource ListItem}" />
-                            <Label Text="2. Shelter" Style="{StaticResource ListItem}" />
-                            <Label Text="3. Warmth" Style="{StaticResource ListItem}" />
-                            <Label Text="4. Food" Style="{StaticResource ListItem}" />
+                            <Label Text="1. Water" />
+                            <Label Text="2. Shelter" />
+                            <Label Text="3. Warmth" />
+                            <Label Text="4. Food" />
                         </VerticalStackLayout>
                     </Border>
 
                     <Label Text="Survival tips" Style="{StaticResource SectionHeader}" />
                     <Border>
                         <VerticalStackLayout>
-                            <Label Text="Drink warm liquids with sugar, but avoid caffeine." Style="{StaticResource ListItem}" />
-                            <Label Text="Dehydration – All water is unsafe until proven otherwise. Always boil before drinking." Style="{StaticResource ListItem}" />
-                            <Label Text="Do not drink alcohol if you show signs of hypothermia." Style="{StaticResource ListItem}" />
-                            <Label Text="Know multiple water purification methods." Style="{StaticResource ListItem}" />
-                            <Label Text="Understand the science: boiling kills pathogens with heat, solar disinfection uses UV radiation, sand and charcoal filters remove particles and some microbes, chemical treatment uses iodine or chlorine." Style="{StaticResource ListItem}" />
+                            <Label Text="Drink warm liquids with sugar, but avoid caffeine." />
+                            <Label Text="Dehydration – All water is unsafe until proven otherwise. Always boil before drinking." />
+                            <Label Text="Do not drink alcohol if you show signs of hypothermia." />
+                            <Label Text="Know multiple water purification methods." />
+                            <Label Text="Understand the science: boiling kills pathogens with heat, solar disinfection uses UV radiation, sand and charcoal filters remove particles and some microbes, chemical treatment uses iodine or chlorine." />
                                 
-                            <Label Text="Conserve energy. Remember STOP: (S)top moving, (T)hink of threats, (O)bserve resources, (P)lan. Find the simplest viable shelter don’t build if you can find one in nature." Style="{StaticResource ListItem}" />
+                            <Label Text="Conserve energy. Remember STOP: (S)top moving, (T)hink of threats, (O)bserve resources, (P)lan. Find the simplest viable shelter don’t build if you can find one in nature." />
 
-                            <Label Text="Get out of the wind." Style="{StaticResource ListItem}" />
-                            <Label Text="Remove wet clothes." Style="{StaticResource ListItem}" />
-                            <Label Text="Make a fire or use skin-to-skin contact for warmth." Style="{StaticResource ListItem}" />
-                            <Label Text="Know at least five different ways to start a fire." Style="{StaticResource ListItem}" />
-                            <Label Text="Use a battery and steel wool, or a chemical reaction with potassium permanganate and glycerin, to start a fire." Style="{StaticResource ListItem}" />
+                            <Label Text="Get out of the wind." />
+                            <Label Text="Remove wet clothes." />
+                            <Label Text="Make a fire or use skin-to-skin contact for warmth." />
+                            <Label Text="Know at least five different ways to start a fire." />
+                            <Label Text="Use a battery and steel wool, or a chemical reaction with potassium permanganate and glycerin, to start a fire." />
                                 
-                            <Label Text="If you cannot identify a plant with 100% cerainty, assume it is poisonous." Style="{StaticResource ListItem}" />
+                            <Label Text="If you cannot identify a plant with 100% cerainty, assume it is poisonous." />
                                 
-                            <Label Text="Be prepared with skills, not just equipment." Style="{StaticResource ListItem}" />
-                            <Label Text="Use a bow drill made from sticks and cordage." Style="{StaticResource ListItem}" />
-                            <Label Text="Practice rope binding and knot tying." Style="{StaticResource ListItem}" />
-                            <Label Text="Learn first aid." Style="{StaticResource ListItem}" />
-                            <Label Text="Learn to read maps and navigate." Style="{StaticResource ListItem}" />
+                            <Label Text="Be prepared with skills, not just equipment." />
+                            <Label Text="Use a bow drill made from sticks and cordage." />
+                            <Label Text="Practice rope binding and knot tying." />
+                            <Label Text="Learn first aid." />
+                            <Label Text="Learn to read maps and navigate." />
+                            <Label Text="Learn military hand signals." />
                         </VerticalStackLayout>
                     </Border>
 
+                    <Label Text="Survival rules" Style="{StaticResource SectionHeader}" />
+                    <Border>
+                        <VerticalStackLayout>
+                            <Label Text="Rule #1: Be invisible - be the gray man." />
+                            <Label Text="Rule #2: After three days, social contracts start breaking down and people begin making desperate decisions. Get to safety or lock down your position." />
+                            <Label Text="Rule #3: Water is your first, second, and third priority. You need stored water, but also knowledge of natural sources and purification methods without electricity or fuel. Always have containers for collecting and transporting water." />
+                            <Label Text="Rule #4: Do not waste calories during a crisis." />
+                            <Label Text="Rule #5: Fire is your most valuable resource and your greatest vulnerability at the same time. Try to survive without it when possible." />
+                            <Label Text="Rule #6: Silence is a survival skill - sounds can give away your location." />
+                            <Label Text="Rule #7: Always have a backup plan. Redundancy saves lives — one is none, two is one." />
+                            <Label Text="Rule #8: Human behavior cannot be predicted." />
+                            <Label Text="Rule #9: Routine is a weakness. Vary your patterns, change your routes, and alternate your timing." />
+                            <Label Text="Rule #10: Patience is a virtue. Do not go looking for what happened — stay safe and observe." />
+                            <Label Text="Rule #11: Your mind is your primary weapon. You can survive three minutes without air, three hours without shelter in harsh conditions, three days without water, and three weeks without food — but never without purpose." />
+                        </VerticalStackLayout>
+                    </Border>
+
+					<Label Text="Ultimate survival directives" Style="{StaticResource SectionHeader}" />
+					<Border>
+						<VerticalStackLayout>
+							<Label Text="Directive #1: Think in groups; if you are alone, you will probably die alone. Groups require governance and conflict resolution." />
+							<Label Text="Directive #2: You need firearms and ammunition (primers - bulminative mercury or lead stipenate and soft metal cups; gunpowder - nitrocellulose-based propellant where burn rate controls pressure and velocity (store in a cool, dry location away from ignition sources); projectiles — cast lead or jacketed lead, you can cast bullets from scrap lead if you have molds, wheel weights, plumbing, old batteries; brass casings can be reused: clean them, resize them, reprime them, recharge with powder, and recreate new bullets)." />
+							<Label Text="Directive #3: Precious metal-containing coins, barter economy." />
+							<Label Text="Directive #4: Collect books: medical manuals, agricultural guides, food-preservation, blacksmithing, animal husbandry, technical references, electrical wiring guides, basic chemistry textbooks. Keep multiple copies in multiple locations." />
+							<Label Text="Directive #5: Use solar power and EMP-resistant analog technology; pair them with deep-cycle batteries or LiFePO4 lithium iron phosphate cells." />
+							<Label Text="Directive #6: Maintenance arsenal - repair your tools, have sharpening stones, files, taps, dyes, threaded fasteners, bolts, screws, and nuts." />
+							<Label Text="Directive #7: Water is life. Biological threats - 1st solution: mechanical filtration with a ceramic or holo filter membrane rated to 0.1 microns; 2nd solution: chemical purification with chlorine dioxide tablets or iodine solutions; 3rd solution: distillation and boiling. Consider viruses, chemical and radiological contamination." />
+							<Label Text="Directive #8: You need a real trauma kit: CAT tourniquet, SOF-T tourniquet, hemostatic gauze (kaolin-infused), pressure bandages, chest seals, antibiotics (Amoxicillin, Doxycycline, Superflaxin, fish antibiotics)." />
+							<Label Text="Directive #9: Heirloom seed vault - agriculture. Mendel's laws work against you; store seeds cool and dark. Heat and humidity are your enemies; vacuum-seal them." />
+							<Label Text="Directive #10: Calorie fortress - white rice, dried beans, wheat berries, honey, salt. Store in Mylar bags with oxygen absorbers (iron powder packets)." />
+						</VerticalStackLayout>
+					</Border>
                 </VerticalStackLayout>
             </Border>
         </VerticalStackLayout>

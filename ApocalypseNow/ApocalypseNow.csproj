@@ -23,7 +23,7 @@
     <ApplicationId>com.mortens.apocalypsenow</ApplicationId>
     <!-- Versions -->
     <MajorVersion>1</MajorVersion>
-    <MinorVersion>5</MinorVersion>
+    <MinorVersion>7</MinorVersion>
     <BuildNumber>0</BuildNumber>
     <PatchNumber>0</PatchNumber>
     <FileVersion>$(MajorVersion).$(MinorVersion).$(BuildNumber).$(PatchNumber)</FileVersion>
@@ -63,7 +63,7 @@
     <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.120" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.10" />
     <PackageReference Include="Mtf.Maui.Controls" Version="2.0.40" />
-    <PackageReference Include="Mtf.MAUI.LanguageService" Version="1.0.40" />
+    <PackageReference Include="Mtf.MAUI.LanguageService" Version="1.0.41" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
     <PackageReference Include="System.Formats.Nrbf" Version="9.0.10" />
   </ItemGroup>
