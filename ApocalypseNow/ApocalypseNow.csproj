@@ -23,7 +23,7 @@
     <ApplicationId>com.mortens.apocalypsenow</ApplicationId>
     <!-- Versions -->
     <MajorVersion>1</MajorVersion>
-    <MinorVersion>8</MinorVersion>
+    <MinorVersion>10</MinorVersion>
     <BuildNumber>0</BuildNumber>
     <PatchNumber>0</PatchNumber>
     <FileVersion>$(MajorVersion).$(MinorVersion).$(BuildNumber).$(PatchNumber)</FileVersion>
@@ -63,12 +63,9 @@
     <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.120" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.10" />
     <PackageReference Include="Mtf.Maui.Controls" Version="2.0.40" />
-    <PackageReference Include="Mtf.MAUI.LanguageService" Version="1.0.41" />
+    <PackageReference Include="Mtf.MAUI.LanguageService" Version="1.0.48" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
     <PackageReference Include="System.Formats.Nrbf" Version="9.0.10" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\Images\" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
     <AndroidKeyStore>True</AndroidKeyStore>
@@ -79,8 +76,14 @@
     <AndroidPackageFormats>aab;apk</AndroidPackageFormats>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Update="Views\FaminePage.xaml.cs">
+      <DependentUpon>FaminePage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\SurvivalGuidesPage.xaml.cs">
       <DependentUpon>SurvivalGuidesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\TornadoPage.xaml.cs">
+      <DependentUpon>TornadoPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -147,7 +150,10 @@
     <MauiXaml Update="Views\PowerOutagePage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Views\ShortagePage.xaml">
+    <MauiXaml Update="Views\FaminePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Views\TornadoPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
     <MauiXaml Update="Views\TsunamiPage.xaml">

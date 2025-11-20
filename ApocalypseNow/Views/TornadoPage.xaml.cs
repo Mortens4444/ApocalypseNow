@@ -2,9 +2,9 @@ using Mtf.LanguageService.MAUI;
 
 namespace ApocalypseNow.Views;
 
-internal partial class ShortagePage : ContentPage
+internal partial class TornadoPage : ContentPage
 {
-	public ShortagePage()
+	public TornadoPage()
 	{
 		InitializeComponent();
         Translator.Translate(this);

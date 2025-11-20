@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:v="clr-namespace:ApocalypseNow.Views"
+             x:Class="ApocalypseNow.Views.TornadoPage"
+             x:ClassModifier="internal"
+             Title="Tornado">
+    <ScrollView>
+        <VerticalStackLayout>
+            <v:GeneralView />
+
+            <VerticalStackLayout Padding="16" Spacing="12">
+                <Border Padding="12">
+                    <VerticalStackLayout>
+                        <Label Text="Tornado warning – seek shelter immediately in a sturdy building! Move to the lowest floor or an interior room without windows." />
+                        <Label Text="If caught outside on foot – Do NOT try to outrun a tornado. Look for a deep ditch, depression, or low area and lie flat facing down, protecting your head with your arms. Stay far from trees, cars, and light structures. Avoid overpasses as they are extremely dangerous. If debris starts flying, keep as low as possible and wait until the danger passes." />
+                        <Label Text="Stay Safe – avoid windows, protect your head, and do not stay in vehicles or mobile homes. Follow official weather alerts." />
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

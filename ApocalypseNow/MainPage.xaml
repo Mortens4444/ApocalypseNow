@@ -44,7 +44,7 @@
 
                 <HorizontalStackLayout HorizontalOptions="Center">
                     <mc:MenuItem ImageName="winter_storm" LabelText="Winter storm, freezing rain" PageType="{x:Type v:WinterStormPage}" WidthRequest="100" HeightRequest="100" />
-                    <mc:MenuItem ImageName="shortage" LabelText="Food / drinking water shortage" PageType="{x:Type v:ShortagePage}" WidthRequest="100" HeightRequest="100" />
+                    <mc:MenuItem ImageName="famine" LabelText="Food / drinking water shortage" PageType="{x:Type v:FaminePage}" WidthRequest="100" HeightRequest="100" />
                     <mc:MenuItem ImageName="chemical" LabelText="Chemical contamination" PageType="{x:Type v:ChemicalPage}" WidthRequest="100" HeightRequest="100" />
                 </HorizontalStackLayout>
                 
@@ -61,6 +61,7 @@
                 </HorizontalStackLayout>
 
                 <HorizontalStackLayout HorizontalOptions="Center">
+                    <mc:MenuItem ImageName="tornado" LabelText="Tornado" PageType="{x:Type v:TornadoPage}" WidthRequest="100" HeightRequest="100" />
                     <mc:MenuItem ImageName="guide" LabelText="Survival guide" PageType="{x:Type v:SurvivalGuidesPage}" WidthRequest="100" HeightRequest="100" />
                     <!--<mc:MenuItem ImageName="test" LabelText="Test" PageType="{x:Type v:ApocalypseChecklistPage}" WidthRequest="100" HeightRequest="100" />-->
                 </HorizontalStackLayout>
