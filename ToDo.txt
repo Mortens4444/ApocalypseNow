@@ -2,12 +2,16 @@ Bicycle, tools, aluminum foil, chain
 Add ToolsPage (Flashlight, compass, mirror, navigate to energy save options)
 
 Add survival guides
-	- Learn to create fire
+	- Learn to create fire !!!
+	- Learn knot tying !!!
+	- Learn picklock !!!
+	- Learn to use a needle and patch things with it !!!
+	- Learn fishing and hunting and preparing the food !!!
+	- Learn water purification methods !!!
 	- Know the berries and mushrooms, what you can eat
 	- Know the sounds of the animals
 	- Learn to create traps
 	- Learn military hand signing
-	- Learn knot tying
 	- Learn to swim
 	- Learn martial art
 	- Learn to train hunting animals (hawk / dog)
